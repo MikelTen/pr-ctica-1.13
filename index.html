@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<h3>Accede a tu Área Clientes</h3>
+<form action="formulario1">
+
+
+Elige tu documento
+
+<p>
+    <input type="radio" name="color" value="">
+    DNI o Tarjeta de residencia
+</p>
+<p>
+    <input type="radio" name="color" value="">
+Pasaporte
+</p>
+
+
+
+    <fieldset>
+
+
+        <legend>Número de documento </legend>
+        <p>
+            
+            <input type="text" name="DNI" checked="DNI o Tarjeta de residencia">
+            
+        </p>
+      
+
+    </fieldset>
+    <fieldset>
+
+
+        <legend>Fecha de nacimiento </legend>
+    
+        
+        Día
+            <input type="date" name="dia" min="1" max="31" >
+        Mes
+            <input type="date" name="mes" min="1" max="12" >
+        Año
+            <input type="date" name="año" min="1850" max="2023" >
+
+      
+
+    </fieldset>
+
+<p>
+    <input type="checkbox" name="recordar" value="si" >
+    Recordar
+
+</p>
+
+
+<input class="color" type="submit" value="entrar" name="entrar" c>
+
+
+</form>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<form action="formulario2">
+
+    <h2>Empieza creando tu usuario</h2>
+
+    <fieldset>
+        
+
+        <legend>Nombre (como sale en el DNI) </legend>
+        <p>
+            
+            <input type="text" name="DNI" checked="DNI o Tarjeta de residencia">
+            
+        </p>
+      
+
+    </fieldset>
+
+    <fieldset>
+        
+
+        <legend> </legend>
+        <p>
+            1º apellido (como sale en el DNI)
+           
+            <input type="text" name="1ºapellido" checked="">
+            2º apellido (como sale en el DNI)
+            <input type="text" name="1ºapellido" checked="">
+
+        </p>
+      
+
+    </fieldset>
+    
+
+    <fieldset>
+        
+        <legend aria-label="TIPO DE DOCUMENTO">TIPO DE DOCUMENTO </legend>
+        <p>
+
+           <strong>   Tipo de documento</strong> 
+            <select name="tipo documento" id="tipo documento" >
+            
+                <option value="DNI">DNI</option>
+                <option value="NIF">NIF</option>
+                <option value="CERT.AEAT">CERT.AEAT</option>
+            </select>
+             Número de documento
+            <input type="number" name="número documento">
+
+        </p>
+      
+        
+
+    </fieldset>
+
+    <fieldset>
+        
+
+        <legend> </legend>
+        <p>
+            Móvil
+            <input type="tel" name="Móvil"  min="9" max="10">
+            Email
+            <input type="text" name="Email" checked="hola@gmail.com">
+            
+        </p>
+      
+
+    </fieldset>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <form action="formulario3">
+
+
+
+        <strong>
+
+          <center> <h4>¿Eres nuevo?</h4> </center>  
+      
+        </strong>
+            <center>   
+       <p>Resgistrate para guardar tu información y hacer </p> 
+       <p>tus pedidos de forma más fácil y rápida</p> 
+    </center>
+
+
+
+    <fieldset>
+        
+
+        <legend><center>Email</center> </legend>
+        <p>
+            
+            <input type="text" name="Email" >
+            
+        </p>
+      
+
+    </fieldset>
+
+    <fieldset>
+        
+
+        <legend><center>Número</center> </legend>
+        <p>
+            
+            <input type="tel" name="número" min="9">
+            
+        </p>
+      
+
+    </fieldset>
+    <fieldset>
+        
+
+        <legend><center>Contraseña</center> </legend>
+        <p>
+            
+            <input type="password" name="contraseña" min="3" id="contraseña" >
+            
+        </p>
+      
+
+    </fieldset>
+
+    <fieldset>
+        
+
+        <legend><center>Confirma tu contraseña</center> </legend>
+        <p>
+            
+            <input type="password" name="contraseña" min="3" value="" >
+            
+        </p>
+      
+
+    </fieldset>
+
+
+
+    <p>
+        <input type="checkbox" name="política" value="si" >
+        He leído y acepto <u>política de privacidad</u>
+    
+    </p>
+    <p>
+        <input type="checkbox" name="política" value="si" >
+    Sí, acepto recibir comunicaciones comerciales y ofertas personalizadas según mi perfil    
+    </p>
+
+
+
+
+
+    <input class="color" type="submit" value="crea tu cuenta" name="entrar" c>
+
+
+
+
+    </form>
+
+
+
+
+</body>
+</html>
